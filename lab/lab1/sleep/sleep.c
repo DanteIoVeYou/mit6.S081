@@ -9,7 +9,7 @@ main(int argc, char *argv[])
         fprintf(2, "Usage: sleep seconds\n");
         exit(1);
     }
-    int seconds = 10 * atoi(argv[1]);
+    int seconds = atoi(argv[1]);
     sleep(seconds);
     exit(0);
 }
