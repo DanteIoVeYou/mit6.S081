@@ -7,7 +7,7 @@ main()
 {
     int r[2];
     int w[2];
-    if(pipe(r) == -1){
+    if(pipe(r) == -1) {
         exit(2);
     }
     if(pipe(w) == -1) {
